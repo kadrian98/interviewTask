@@ -1,0 +1,44 @@
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.card {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin: 0.5rem;
+  min-height: 200px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+}
+
+.card-title {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-date {
+  font-size: 14px;
+  color: #333;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: justify;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
